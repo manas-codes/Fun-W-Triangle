@@ -36,7 +36,7 @@ h1{
     margin-right: auto;
     margin-left: auto;
 }
-.content{
+#content{
     display: grid;
     margin: auto;
     margin-bottom: 2rem;

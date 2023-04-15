@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/quiz.css">
+  <title>triangle quiz</title>
+</head>
+<body>
+  <div class="container">
+       <div class="banner">
+              <div class="head"><h1>Triangle quiz</h1></div> 
+              <div class="back"><a href="" class="link-back">Back</a></div> 
+              </div>
+    <form class=quiz-form>
+      <div class="question">
+        <p class="question-space">1. what will be the third angle of the triangle if other two are 45°,45°?</p>
+       <p><lable>  
+        <input type="radio" value="60°" name="question1"class="question-space">60°
+               </lable>
+        <lable>  
+        <input type="radio" value="90°" name="question1" class="question-space">90°
+               </lable>
+        <lable>  
+        <input type="radio" value="50°" name="question1" class="question-space">50°
+               </lable></p>
+        <p class="question-space">2. which of these is an obtuse angle?</p>
+        <p><lable>  
+        <input type="radio" value="60°" name="question2" class="question-space">60°
+               </lable>
+        <lable>  
+        <input type="radio" value="90°" name="question2" class="question-space">90°
+               </lable>
+        <lable>  
+        <input type="radio" value="150°" name="question2"class="question-space">150°
+               </lable></p>
+               <p class="question-space">3. If a triangle has angles 300, 600, 900. Is it a right angle triangle?</p>
+               <p><label>
+                     <input type="radio" value="yes" name="question3"class="question-space">yes     
+               </label>
+               <label>
+                     <input type="radio" value="no" name="question3"class="question-space">no     
+               </label></p>
+
+               <div class="foot">
+                     <button id="submit">Submit</button></div>
+                   <textarea id="output" disabled></textarea>
+      </div>
+    </form>
+      
+  <script src="js/quiz.js"></script>
+</body>
+</html>
